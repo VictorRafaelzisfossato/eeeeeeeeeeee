@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eeeeeeee</title>
+      <link rel="icon" href="aki/chor.ico" type="image/x-icon" />
+
+    <style>
+   body {
+background-color: #ffcc00; /* Amarelo brilhante /
+color: #0000ff; / Azul berrante /
+/ Outros estilos... */
+}
+
+h1 {
+color: #ff00ff; /* Magenta /
+/ Outros estilos... */
+}
+
+p {
+color: #00ff00; /* Verde limão /
+/ Outros estilos... */
+}
+.imagem-pisca {
+    width: 300px; /* ou o tamanho que desejar */
+    animation: piscar 1ms infinite; /* Agora o tempo é de 1 milissegundo */
+}
+        /* Define a animação de piscar */
+        @keyframes piscar {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <audio id="musica-zueira" src="we_are_the_champions.mp3" loop></audio>
+    <p>E<u>eeeeeeeeeeeeeeeeeeeeeeee</u>eeeeeeeeeeee<s>eeeeeeeeeeeeeeeeeee</s><b>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</b><i>eeeeeeeeeeeeeeeeeeeeeeeee</i>
+    <p>Eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+
+    <img src="aki/chor.png" class="imagem-pisca">
+<button class="botao-zueira" onclick="tocarMusica()">ursula</button>
+  <script>
+        function tocarMusica() {
+            var musica = document.getElementById("musica-zueira");
+            musica.play();
+        }
+    </script>
+</body>
+</html>
